@@ -31,7 +31,7 @@ public class SpringDataRestGraphqlApplication implements CommandLineRunner {
 				.nom("Oranges").adresse("Oulfa").build();
 		centreRepository.save(centre2);
 		Etudiant et1 = Etudiant.builder()
-				.nom("Adnani").prenom("Brahim").genre(Genre.Homme)
+				.nom("jerrari").prenom("yassir").genre(Genre.Homme)
 				.centre(centre1).build();
 		etudiantRepository.save(et1);
 
